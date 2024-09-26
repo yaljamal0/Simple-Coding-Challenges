@@ -13,6 +13,7 @@ def reverseString(s):
         s[i] = s[-1-i]
         s[-1-i] = firstValue
 
+# Test
 test = ['t', 'e', 's', 't']
 reverseString(test)
 print(test)
